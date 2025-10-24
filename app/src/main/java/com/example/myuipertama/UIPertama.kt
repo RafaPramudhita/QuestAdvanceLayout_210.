@@ -52,10 +52,29 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 modifier = Modifier.padding(16.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-
+                val gambar = painterResource(id = R.drawable.logoumy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(80.dp)
+                )
+                Spacer(modifier = Modifier.width(20.dp))
+                Column {
+                    Text(
+                        text = "Muhammad Rafa Pramudhita",
+                        fontSize = 23.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White
+                    )
+                    Text(
+                        text = "Serang, Banten",
+                        fontSize = 18.sp,
+                        color = Color.Yellow
+                    )
                 }
             }
         }
+
 
     }
 }
