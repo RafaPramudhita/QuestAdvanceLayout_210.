@@ -145,6 +145,11 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                         color = Color.White,
                         fontWeight = FontWeight.Bold
                     )
+                    Text(
+                        text = "Garut",
+                        fontSize = 19.sp,
+                        color = Color.Cyan
+                    )
 
                 }
             }
