@@ -25,6 +25,17 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        // ===== Header =====
+        Text(
+            text = stringResource(id = R.string.Prodi),
+            fontSize = 35.sp,
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = stringResource(id = R.string.Univ),
+            fontSize = 22.sp
+        )
+
 
     }
 }
