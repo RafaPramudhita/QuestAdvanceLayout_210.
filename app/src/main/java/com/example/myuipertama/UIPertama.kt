@@ -85,7 +85,35 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             ),
             shape = RoundedCornerShape(12.dp)
         ) {
-
+            Row(
+                modifier = Modifier.padding(16.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                val gambar = painterResource(id = R.drawable.logoumy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(80.dp)
+                )
+                Spacer(modifier = Modifier.width(20.dp))
+                Column {
+                    Text(
+                        text = "Ahmad Sutejo",
+                        fontSize = 25.sp,
+                        color = Color.White,
+                        fontWeight = FontWeight.Bold
+                    )
+                    Text(
+                        text = "Gresik",
+                        fontSize = 19.sp,
+                        color = Color.Cyan
+                    )
+                    Text(
+                        text = "081390522839",
+                        fontSize = 16.sp,
+                        color = Color.White
+                    )
+                }
             }
         }
 
