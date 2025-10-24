@@ -150,7 +150,11 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                         fontSize = 19.sp,
                         color = Color.Cyan
                     )
-
+                    Text(
+                        text = "08123456789",
+                        fontSize = 16.sp,
+                        color = Color.White
+                    )
                 }
             }
         }
