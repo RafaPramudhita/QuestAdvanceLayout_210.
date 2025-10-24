@@ -117,6 +117,17 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             }
         }
 
+        // Card 3
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color(0xFF1B5E20)
+            ),
+
+        }
+
 
 
 
