@@ -161,6 +161,15 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.weight(1f))
 
+        // ===== Footer =====
+        Box(modifier = Modifier.fillMaxWidth()) {
+            Text(
+                text = stringResource(id = R.string.Copy),
+                modifier = Modifier
+                    .align(Alignment.Center)
+                    .padding(bottom = 50.dp),
 
+            )
+        }
     }
 }
