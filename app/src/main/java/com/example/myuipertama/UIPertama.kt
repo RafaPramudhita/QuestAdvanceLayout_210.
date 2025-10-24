@@ -168,7 +168,8 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 modifier = Modifier
                     .align(Alignment.Center)
                     .padding(bottom = 50.dp),
-
+                fontSize = 15.sp,
+                color = Color.Gray
             )
         }
     }
